@@ -49,7 +49,8 @@ A web-based voting application that allows users to sign up, log in, and vote fo
    cd Voting-application
    ```
 3. Install dependencies:
-  ```"dependencies": {
+  ```
+ "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
