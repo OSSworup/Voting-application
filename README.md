@@ -18,6 +18,7 @@ A web-based voting application that allows users to sign up, log in, and vote fo
 -Authentication: JSON Web Token (JWT)
 
 ### Project Structure
+```
 └── VOTING APPLICATION/
     ├── models/
     │   ├── User.js         # User model, includes Aadhaar-based authentication
@@ -28,6 +29,7 @@ A web-based voting application that allows users to sign up, log in, and vote fo
     ├── db.js               # Database connection module
     ├── jwt.js              # JWT authentication middleware
     └── server.js           # Server setup and configuration
+```
 
 
 ## Getting Started
@@ -47,7 +49,7 @@ A web-based voting application that allows users to sign up, log in, and vote fo
    cd Voting-application
    ```
 3. Install dependencies:
-  "dependencies": {
+  ```"dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
@@ -56,6 +58,7 @@ A web-based voting application that allows users to sign up, log in, and vote fo
     "mongoose": "^8.7.0",
     "nodemon": "^3.1.7"
   },
+```
    ```
    npm install
    ```
