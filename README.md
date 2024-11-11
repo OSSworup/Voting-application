@@ -18,7 +18,6 @@ A web-based voting application that allows users to sign up, log in, and vote fo
 -Authentication: JSON Web Token (JWT)
 
 ### Project Structure
-
 └── VOTING APPLICATION/
     ├── models/
     │   ├── User.js         # User model, includes Aadhaar-based authentication
@@ -40,12 +39,12 @@ A web-based voting application that allows users to sign up, log in, and vote fo
 ### Installation
 1. Clone the repository:
     ```
-   git clone https://github.com/OSSworup/Task-Management-System
+   git clone https://github.com/OSSworup/Voting-application
     ```
    
 2. Navigate to the project directory:
    ```
-   cd Task Management System
+   cd Voting-application
    ```
 3. Install dependencies:
   "dependencies": {
